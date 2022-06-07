@@ -1,0 +1,23 @@
+{
+    "name": "tolkam/routing-application-extras",
+    "description": "tolkam/application-extras helpers for tolkam/routing component",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Kanstantsin Kulesh",
+            "email": "kk@tolkam.com",
+            "homepage": "https://www.tolkam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tolkam\\Routing\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "tolkam/routing": "^2.0",
+        "tolkam/application-extras": "^2.0"
+    }
+}
