@@ -1,0 +1,15 @@
+{
+    "name": "@tolkam/lib-browser-address-bar",
+    "description": "An abstraction over the browser History API and more",
+    "version": "0.0.0",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "history": "^5.3.0"
+    },
+    "peerDependencies": {},
+    "devDependencies": {
+        "tslib": "^2.4.0"
+    }
+}
